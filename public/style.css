@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1 {
+	padding: 3vh 0;
+	text-align:center;
+	font-size: 4.5vw;
+	color: #C55D46;
+	font-weight: bold;
+}
+
+.connexion {
+	text-align: center;
+}
+
+.connexion * {
+	margin-top: 20vh;
+	width: 300px;
+}
+
+.search {
+	text-align: center;
+}
+
+#input {
+	width: 20vw;
+}
+
+#parentInput{
+	padding-left: 20vw;
+}
+
+#parentInput * {
+	text-align: center;
+	border: 1px black solid;
+	width: 20vw;
+	overflow:hidden;
+}
+
+.spanTag {
+	border:solid grey 1px;
+}
+
+.content {
+	background-color: #35393E;
+	margin: 0 3vw;
+	height: 80vh;
+	border-radius: 30px;
+}
+
+.newTag {
+	position:relative;
+
+}
+body {
+	font-size: 30px;
+	background-color: #F0C63C;
+}
+
+footer {
+	text-align: center;
+	color: #55f;
+	opacity: 0.7;
+	font-weight: bold;
+
+}
+
+footer * {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	display:inline;
+	font-size: 1.5vw;
+	width:100%;
+}
+
+header {
+}
